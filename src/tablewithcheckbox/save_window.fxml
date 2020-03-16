@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tablewithcheckbox.save_windowController">
+   <children>
+      <TableView fx:id="tableView" layoutX="26.0" layoutY="20.0" prefHeight="509.0" prefWidth="706.0">
+        <columns>
+          <TableColumn fx:id="Delete" prefWidth="55.0" text="Delete" />
+          <TableColumn fx:id="Username" prefWidth="96.0" text="Username" />
+            <TableColumn fx:id="Saved" prefWidth="554.0" text="Saved" />
+        </columns>
+      </TableView>
+      <Button fx:id="delete" layoutX="26.0" layoutY="529.0" mnemonicParsing="false" onAction="#handledeleteButtonAction" text="delete" />
+   </children>
+</AnchorPane>
